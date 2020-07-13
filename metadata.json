@@ -1,0 +1,51 @@
+{
+  "author": "LCGDM",
+  "dependencies": [
+    {
+      "name": "lcgdm/gridftp",
+      "version_requirement": ">= 0.2.7"
+    },
+    {
+      "name": "lcgdm/dmlite",
+      "version_requirement": ">=1.14.0"
+    },
+    {
+      "name": "lcgdm/lcgdm",
+      "version_requirement": ">= 0.3.12"
+    },
+    {
+      "name": "lcgdm/xrootd",
+      "version_requirement": ">= 0.2.8"
+    },
+    {
+      "name": "lcgdm/voms",
+      "version_requirement": ">= 0.3.3"
+    },
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 4.25.0"
+    },
+    {
+      "name": "puppetlabs/mysql",
+      "version_requirement": ">= 3.4.0 <= 10.4.0"
+    },
+    {
+      "name": "saz/memcached",
+      "version_requirement": ">= 2.8.1 <= 3.5.0"
+    },
+    {
+      "name": "CERNOps/bdii",
+      "version_requirement": ">= 1.2.2 <= 1.3.0"
+    }
+  ],
+  "description": "A wrapper for the DPM modules",
+  "license": "Apache-2.0",
+  "name": "lcgdm-dpm",
+  "operatingsystem_support":[],
+  "project_page": "http://lcgdm.web.cern.ch/dpm",
+  "requirements": [],
+  "source": "https://gitlab.cern.ch/lcgdm/dmlite",
+  "summary": "Official DPM module",
+  "tags": [],
+  "version": "1.14.0"
+}

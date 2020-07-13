@@ -1,0 +1,79 @@
+2020-06-01 Petr Vokac  <petr.vokac@cern.ch>
+        * drop support for puppet 4
+        * update dependencies
+2019-09-05 Petr Vokac  <petr.vokac@cern.ch>
+        * add StAR accounting
+2019-05-09 Andrea Manzi  <andrea.manzi@cern.ch>
+        * add http_macaroon_secret parameter
+        * remove default mapping
+2019-02-11 Petr Vokac  <petr.vokac@cern.ch>
+        * properly disable gridftp redirection
+2019-02-11 Andrea Manzi  <andrea.manzi@cern.ch>
+        * update BDII module version
+2019-01-10 Andrea Manzi  <andrea.manzi@cern.ch>
+        * add conf for xrootd delegation
+        * add conf to disable xrootd checksum
+        * remove installation of n2n plugin for atlas
+2018-11-13 Andrea Manzi  <andrea.manzi@cern.ch>
+        * aligned version to DPM version
+2018-09-4 Andrea Manzi  <andrea.manzi@cern.ch>
+        * update voms dependency
+        * update mysql tunings 
+2018-06-4 Andrea Manzi  <andrea.manzi@cern.ch>
+        * added DPM 1.10.0 configuration
+2018-03-23 Andrea Manzi  <andrea.manzi@cern.ch>
+        * fix for LCGDM-2589
+2018-02-21 Andrea Manzi  <andrea.manzi@cern.ch>
+        * update dependencies
+2018-01-18 Andrea Manzi  <andrea.manzi@cern.ch>
+        * update dependencies
+2017-11-23 Andrea Manzi  <andrea.manzi@cern.ch>
+        * update dependencies
+2017-06-26 Andrea Manzi  <andrea.manzi@cern.ch>
+        * update dependencies
+        * fix Readme
+2017-05-29 Andrea Manzi  <andrea.manzi@cern.ch>
+        * update dependencies
+2017-04-12 Andrea Manzi  <andrea.manzi@cern.ch>
+        * don't configure gridftp redirection if DOME is enabled
+2017-04-10 Andrea Manzi  <andrea.manzi@cern.ch>
+        * force stdlib version to be <= 4.15
+2017-02-15 Andrea Manzi  <andrea.manzi@cern.ch>
+        * added admin_dn and db_manage parameters
+        * updated deps
+2016-12-15 Andrea Manzi  <andrea.manzi@cern.ch>
+        * added DPM 1.9.0 functionalites
+2016-10-28 Andrea Manzi  <andrea.manzi@cern.ch>
+        * use num2bool
+2016-08-23 Andrea Manzi  <andrea.manzi@cern.ch>
+        * updated DPM deps
+2016-07-12 Andrea Manzi  <andrea.manzi@cern.ch>
+	* updated DPM deps
+2016-06-29 Andrea Manzi  <andrea.manzi@cern.ch>
+        * update lcgdm-voms deps
+2016-06-22 Andrea Manzi  <andrea.manzi@cern.ch>
+        * moved to metadata.json 
+        * removed stdlib strict deps
+2016-05-31 Andrea Manzi  <andrea.manzi@cern.ch>
+        * added new deps
+        * removed limits conf and deps
+        * raised memcahced max memory
+2016-05-25 Andrea Manzi  <andrea.manzi@cern.ch>
+        * moved xrd_report and xrd_monitoring to the disknodes
+        * fixed configuration of repositories
+2016-03-13 Andrea Manzi  <andrea.manzi@cern.ch>
+	* added mountpoints, pools and filesystems vars
+        * added mysql_override var
+        * added pools var
+        * bug fixes
+2016-02-23 Andrea Manzi  <andrea.manzi@cern.ch>
+        * added gridftp redir support
+        * moved disknodes to array
+        * several bug fixes
+2016-02-08 Andrea Manzi  <andrea.manzi@cern.ch>
+        * puppet 4 support
+2016-01-06 Andrea Manzi  <andrea.manzi@cern.ch>
+        * fixed handling of multiple vos on disknode
+2015-09-28 Andrea Manzi  <andrea.manzi@cern.ch>
+	* fixed handling of multiple vos
+
