@@ -27,7 +27,7 @@ class dpm::headnode (
   Boolean $memcached_enabled = $dpm::params::memcached_enabled,
 
   #GridFtp redirection
-  Integer[0, 1] $gridftp_redirect = $dpm::params::gridftp_redirect,
+  Boolean $gridftp_redirect = $dpm::params::gridftp_redirect,
 
   #dpmmgr user options
   Integer $dpmmgr_uid = $dpm::params::dpmmgr_uid,
